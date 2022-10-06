@@ -2,7 +2,7 @@ $(document).ready(function() {
 $('form').on('submit', function(e) {
     e.preventDefault();
     const addNovaTarefa = $('#adicionar-nova-tarefa').val();
-    const addListaDeTarefa = $('<li>' + addNovaTarefa + '<i class="checked"></i></li>');
+    const addListaDeTarefa = $('<li>' + addNovaTarefa + '</li>');
     $(addNovaTarefa).appendTo($(addListaDeTarefa));
     $(addListaDeTarefa).appendTo('ul');
     $('#adicionar-nova-tarefa').val('');
