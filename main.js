@@ -6,11 +6,11 @@ $('form').on('submit', function(e) {
     $(addNovaTarefa).appendTo($(addListaDeTarefa));
     $(addListaDeTarefa).appendTo('ul');
     $('#adicionar-nova-tarefa').val('');
-    $('ul').on('click', function() {
-        if ($('ul').css('text-decoration-line') == 'none')
-            $('ul').css('text-decoration-line', 'line-through');
+    $("li").click(function() {
+        if ($(this).css('text-decoration-line') == 'none')
+        $(this).css('text-decoration-line', 'line-through');
         else
-            $('ul').css('text-decoration-line', 'none');
-        })
+        $(this).css('text-decoration-line', 'none');
+    })
     })
     })
