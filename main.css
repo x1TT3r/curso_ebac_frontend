@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -44,3 +45,50 @@ li {
     cursor: pointer;
     text-decoration:#17cd0a;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin-top:200px;
+    padding: 15px;
+}
+
+header h1 {
+    margin-left: 110px;
+}
+
+form {
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+input,button {
+    padding: 10px;
+    font-size: 26px;
+}
+
+form button {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+>>>>>>> 7133e6cbea6ece689b42b201d608fe0b9b03757b
