@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(https://c.pxhere.com/photos/6c/46/blue_fantasy_heavenly_abstract-1375180.jpg!d);
+    background-size:cover ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body image {
+    width: 100%;
+}
+
+form {
+    text-shadow:3px 2px 5px #00039b;
+    max-width: 600px;
+    background: #3b7fc2;
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #00fff2;
+    border-radius: 10px;
+    box-shadow: 6px 3px 10px #00fff2;
+    margin-top: 50px;
+}
+
+form h2 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 250px;
+    border-color: #00fff2;
+    border-radius: 10px;
+    margin: 0px 20px 0px 170px;
+    display: block;
+    padding: 8px;
+}
+
+
+button {
+    display: block;
+    max-width: 120px;
+    margin-left: 240px ;
+    width: 100%;
+    padding: 8px 0;
+    border:none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+form button:hover {
+    background-color: #19f18c;
+    box-shadow: 2px 3px 10px #00fff2;
+}
+
+.error.error {
+    color: #b02f3e;
+    text-shadow:none;
+}
