@@ -1,0 +1,33 @@
+body {
+    background-color: #636363f4;
+}
+
+.container {
+    padding: 0px 120px 0px;
+    max-width: 600px;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.col {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.col h2 {
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.error.error {
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    color: #de0e27;
+}
