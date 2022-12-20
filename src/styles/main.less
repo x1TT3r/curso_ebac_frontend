@@ -1,0 +1,64 @@
+@fontePrincipal: Roboto, sans-serif;
+@fonteDoTitulo: Lobster, cursive;
+@corDoTexto: #fff;
+@corDeFundo: rgb(50, 48, 190);
+@corDoBotao: rgb(3, 25, 97);
+@corResultado: black;
+
+body{
+    background-image: linear-gradient(100deg,@corDeFundo, @corDoTexto);
+    font-family: @fontePrincipal;
+    color: @corDoTexto;
+}
+
+h1 {
+    font-family: @fonteDoTitulo;
+    font-size: 3em;
+    text-shadow: -9px 9px @corDoBotao;
+}
+
+.container {
+    height: 100vh;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(34, 36, 66, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: @corDoBotao;
+    border: none;
+    border-radius: 10px;
+    color: @corDoTexto;
+}
+
+.botao:hover{
+    background-color: @corResultado;
+}
+
+#resultado{
+    width: 207px;
+    background-color: @corDoTexto;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: @corResultado;
+    text-align: right;
+    padding: 5px;
+}
